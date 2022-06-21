@@ -16,19 +16,21 @@
         }
     ],
     "require": {
-        "php": "^7.4|^8.0"
+        "php": "^7.4|^8.0",
+        "phpro/soap-client": "^1.7"
     },
     "require-dev": {
+        "laminas/laminas-code": "^3.1.0",
         "phpunit/phpunit": "^9.0"
     },
     "autoload": {
         "psr-4": {
-            "Booni3\\Gfs\\": "src"
+            "Booni3\\GFS\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Booni3\\Gfs\\Tests\\": "tests"
+            "Booni3\\GFS\\Tests\\": "tests"
         }
     },
     "scripts": {
