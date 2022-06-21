@@ -1,0 +1,42 @@
+{
+    "name": "booni3/gfs",
+    "description": "",
+    "keywords": [
+        "booni3",
+        "gfs"
+    ],
+    "homepage": "https://github.com/booni3/gfs",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Adam Lambert",
+            "email": "booni3@pm.me",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Booni3\\Gfs\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Booni3\\Gfs\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
