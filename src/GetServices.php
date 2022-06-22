@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Support\Library\GFS\Services;
+namespace Booni3\GFS;
 
 
 use Spatie\SimpleExcel\SimpleExcelReader;

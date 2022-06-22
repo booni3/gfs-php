@@ -1,12 +1,9 @@
 <?php
 
 
-namespace Support\Library\GFS;
+namespace Booni3\GFS;
 
-
-use Exception;
-
-class GfsResponseException extends Exception
+class GFSResponseException extends \Exception
 {
 
 }
