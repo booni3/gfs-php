@@ -10,11 +10,11 @@ class GetServices
 {
     public static function sandbox(): array
     {
-        return SimpleExcelReader::create(base_path('app/Support/Library/GFS/Services/sandbox.csv'))->getRows()->all();
+        return SimpleExcelReader::create(__DIR__.'/sandbox.csv')->getRows()->all();
     }
 
     public static function production(): array
     {
-        return SimpleExcelReader::create(base_path('app/Support/Library/GFS/Services/production.csv'))->getRows()->all();
+        return SimpleExcelReader::create(__DIR__.'/production.csv')->getRows()->all();
     }
 }
